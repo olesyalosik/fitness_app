@@ -11,6 +11,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_svg: ^2.0.10+1
+  vector_graphics: ^1.1.11+1
+  on_boarding:
+    path: ./features/on_boarding
 
   cupertino_icons: ^1.0.6
 
@@ -34,3 +38,6 @@ flutter:
           weight: 500
         - asset: assets/fonts/Poppins-Regular.ttf
           weight: 400
+
+  assets:
+    - assets/img/on_boarding/
